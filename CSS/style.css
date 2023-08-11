@@ -1,0 +1,28 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Righteous&display=swap');
+
+body{
+    background-color: #F7ECDE;
+}
+::selection {
+    background-color: #fec260;
+    color: #352e28;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    
+}
+.bookmark-body{
+    border-top: 2px dotted black;
+    
+}
+.bookmark-body h2{
+    background-image: linear-gradient(to right, #3ca55c, #b5ac49);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color: transparent;
+    font-family: 'Pacifico', cursive;
+font-family: 'Righteous', cursive;
+}
+

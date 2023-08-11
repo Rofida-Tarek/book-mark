@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="./CSS/all.min.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+    <title>BookMark</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="text-center mt-5 p-2">Bookmarker</h1>
+      <div class="bookmark-body mt-5">
+        <h2 class="d-flex justify-content-center align-items-center mt-3">
+          <i class="fa-solid fa-bookmark fs-4"></i>
+          Bookmark your favorite sites
+          <i class="fa-solid fa-bookmark fs-4"></i>
+        </h2>
+        <div class="site-name d-flex flex-column">
+          <label for="name" class="p-2">
+            <i class="fa-solid fa-book-bookmark"></i>
+            Site Name</label
+          >
+          <input
+            type="text"
+            placeholder="Bookmark Name"
+            id="name"
+            class="p-2"
+          />
+        </div>
+        <div class="site-name d-flex flex-column mt-3">
+          <label for="url" class="p-2">
+            <i class="fa-solid fa-link"></i>
+            Site URL</label
+          >
+          <input type="url" placeholder="Website URL" id="url" class="p-2" />
+        </div>
+        <button
+          onclick="adddeteles();"
+          class="btn btn-danger mt-2 px-5"
+          type="submit"
+        >
+          submit
+        </button>
+      </div>
+      <div class="mt-5 table p-4">
+        <table class="table text-center table-striped">
+          <thead>
+            <th>Index</th>
+            <th>Website Name</th>
+            <th>Visit</th>
+            <th>Delete</th>
+          </thead>
+          <tbody id="tablebody"></tbody>
+        </table>
+      </div>
+    </div>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/index.js"></script>
+  </body>
+</html>
